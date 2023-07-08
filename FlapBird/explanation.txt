@@ -1,0 +1,83 @@
+
+[NEAT]
+fitness_criterion     = max /* o critério do jogo basicamente é maximizar a pontuação */
+fitness_threshold     = 1000 /* limite: qual é o limite que o pássaro precisará atingir.
+Nesse caso, quando ele atingir a pontuação de 1000 canos, pode-se considerar que esse pássaro já ganhou, e o programa irá retornar as configurações do pássaro */
+
+pop_size              = 100 /* tamanho da população: quando o jogo inicia, será gerado 100 pássaros */
+reset_on_extinction   = False /* se chegar em um ponto de travar ou a evolução não continuar, ele irá me retornar um erro*/
+
+[DefaultGenome]
+# node activation options
+activation_default      = tanh /* a função de ativação do nó será a tangente hiperbólica  */
+activation_mutate_rate  = 0.0 /* ele não irá adicionar nenhuma outra função, portanto 0.0 */
+activation_options      = tanh /* opções de funções de ativações: sempre será a tangente hiperbólica */
+
+# node aggregation options
+aggregation_default     = sum /* agregação (soma) dos caminhos gerado nos inputs */
+aggregation_mutate_rate = 0.0 /* não tente outra forma de agregação */
+aggregation_options     = sum /* a única opção de agregação é a soma */
+
+# node bias options
+bias_init_mean          = 0.0 /* a média do bias será 0 */
+bias_init_stdev         = 1.0 /* o desvio padrão dele será 1 */
+bias_max_value          = 30.0 /* valor máximo */
+bias_min_value          = -30.0 /* valor mínimo */
+bias_mutate_power       = 0.5 /* a força da rotação será de 50% do valor aplicado 
+Se ele quiser aumentar um valor de 20 para 30 (um valor de 10) ele reduzirá um pouquinho */
+bias_mutate_rate        = 0.7 /* a chance de ter uma mutação no bias é 70% */
+bias_replace_rate       = 0.1 /* possibilidade de substituição do bias */
+
+# genome compatibility options
+compatibility_disjoint_coefficient = 1.0 /*  */
+compatibility_weight_coefficient   = 0.5 /*  */
+
+# connection add/remove rates
+conn_add_prob           = 0.5 /*  */
+conn_delete_prob        = 0.5 /*  */
+
+# connection enable options
+enabled_default         = True /*  */
+enabled_mutate_rate     = 0.01 /*  */
+
+feed_forward            = True /*  */
+initial_connection      = full /*  */
+
+# node add/remove rates
+node_add_prob           = 0.2 /*  */
+node_delete_prob        = 0.2 /*  */
+
+# network parameters
+num_hidden              = 0 /*  */
+num_inputs              = 3 /*  */
+num_outputs             = 1 /*  */
+
+# node response options
+response_init_mean      = 1.0 /*  */
+response_init_stdev     = 0.0 /*  */
+response_max_value      = 30.0 /*  */
+response_min_value      = -30.0 /*  */
+response_mutate_power   = 0.0 /*  */
+response_mutate_rate    = 0.0 /*  */
+response_replace_rate   = 0.0 /*  */
+
+# connection weight options
+weight_init_mean        = 0.0 /*  */
+weight_init_stdev       = 1.0 /*  */
+weight_max_value        = 30 /*  */
+weight_min_value        = -30 /*  */
+weight_mutate_power     = 0.5 /*  */
+weight_mutate_rate      = 0.8 /*  */
+weight_replace_rate     = 0.1 /*  */
+
+[DefaultSpeciesSet]
+compatibility_threshold = 3.0 /*  */
+
+[DefaultStagnation]
+species_fitness_func = max /*  */
+max_stagnation       = 20 /*  */
+species_elitism      = 2 /*  */
+
+[DefaultReproduction]
+elitism            = 2 /*  */
+survival_threshold = 0.2 /*  */
