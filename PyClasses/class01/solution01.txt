@@ -1,0 +1,7 @@
+nome = input("Digite seu nome: \n")
+nomeCompleto = input("Digite seu nome completo: \n")
+idade = input("Digite sua idade: \n")
+dataNasc = input("Digite sua data de nascimento: \n")
+localNasc = input("Digite a cidade que você nasceu: \n")
+residAtual = input("Digite onde você mora atualmente: \n")
+print(f"\nOlá {nome}. Aqui estão as informações do seu registro: \n Nome completo: {nomeCompleto}\n Idade: {idade}\n Data de Nascimento: {dataNasc}\n Local de nascimento: {localNasc}\n Residência atual: {residAtual}")

@@ -1,0 +1,17 @@
+Exercício 1: Apresentação
+Para retomarmos a primeira aula, um exercício bem simples:
+ - Uma pequena apresentação de você mesmo;
+ - Faça um pequeno programa que pergunte apenas o primeiro nome, o nome inteiro, idade, data de nascimento, onde nasceu e onde está morando atualmente;
+ - O usuário deve digitar essas informações e no final, o programa deve mostrar uma mensagem com de exemplo abaixo:
+"Olá {primeiroNome}. Aqui estão as informações do seu registro:
+ Nome completo: {nomeCompleto}
+ Idade: {idade}
+ Data de nascimento: {dataNasc}
+ Local de nascimento: {localNasc}
+ Residência atual: {residAtual}"
+
+ - O objetivo primeiramente é fazer esse programa funcionar corretamente, após isso você pode seguir os desafios abaixo:
+
+- DESAFIO:
+ - A formatação do texto deve estar com quebras de linhas e letras maiúsculas como no exemplo acima;
+ - O arquivo deve ter somente até 7 linhas;
