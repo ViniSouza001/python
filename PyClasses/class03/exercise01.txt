@@ -1,0 +1,6 @@
+Exercício 1: Condições
+- Uma das principais coisas que será usado na programação em nossas vidas sempre serão as condições, portanto precisamos sempre treinar isso. Portanto um exercício simples:
+ - Faça um programa no qual ele irá te perguntar o seu nome e a sua idade;
+ - No final, precisamos que o programa retorne para o usuário o nome e a idade dele, porém com uma validação;
+ - Então faça a seguinte validação: Se o nome do usuário conter números, o programa deve retornar "Você digitou um nome inválido, seu nome não pode conter letras"
+ - E faça algumas outras validações: Se a idade for MENOR do que 0 retorne a mensagem "Sua idade não pode ser menor do que 0". Se a idade for MAIOR do que 120 anos, retorne a mensagem "Sua idade não pode ser maior do que 120 anos". E se caso o usuário colocar uma letra ou um caractere especial na idade, o programa deve retornar "A idade deve conter somente números".

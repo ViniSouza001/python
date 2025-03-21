@@ -1,0 +1,15 @@
+- ATIVIDADE 1:
+ - Para entender melhor a função dos vetores e dos laços de repetição vamos fazer um exercício bem simples:
+ - Com algumas contas para pagar, eu preciso ter uma noção de quanto gasto por mês, então as contas podem ser divididas em dois vetores. Um vetor chamado de "contas" e outro chamado "valores".
+ - Aqui colocarei tudo junto mas preciso que separe cada coisa no seu vetor;
+ - Os valores são:
+  - Gasolina: 100
+  - Faculdade: 275
+  - Óleo da moto: 50
+  - Conta de celular: 72,50
+  - Gasolina da moto: 100
+  - Gasolina da moto: 100
+  - Gasolina da moto: 100
+  - Gasolina da moto: 100
+  - Gasolina da moto: 100
+  - Gasolina da moto: 100
