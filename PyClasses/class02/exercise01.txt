@@ -7,9 +7,5 @@
   - Faculdade: 275
   - Óleo da moto: 50
   - Conta de celular: 72,50
-  - Gasolina da moto: 100
-  - Gasolina da moto: 100
-  - Gasolina da moto: 100
-  - Gasolina da moto: 100
-  - Gasolina da moto: 100
-  - Gasolina da moto: 100
+  - Juntar dinheiro: 150,00
+  - Aproveitos: 200,00
