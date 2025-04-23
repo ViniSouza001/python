@@ -1,0 +1,5 @@
+Uma simples atividade: você fará com que um programa em python receba o nome de um aluno, e depois receba a nota dele divida em 3: Nota do primeiro bimestre, notas do segundo bimestre, do terceiro e do quarto. Você pode fazer variáveis como "nome", "nota1", "nota2", "nota3" e "nota4".
+Assim que o programa receber o nome e as variáveis, quero que você faça uma conta para calcular a média desse aluno. A média dele é a soma de todas as notas divididas pela quantidade de bimestres que teve.
+Após isso, você vai precisar fazer a seguinte verificação: Se a média for menor que 6.0, o aluno está de recuperação, senão o aluno está aprovado.
+
+- DESAFIO: Se você conseguir completar a tarefa de cima, quero que você valide depois se o nome do aluno for inválido, ou seja, se o nome do aluno for um número, nós não podemos aceitar o nome. E se o nome do aluno tiver menos do que 3 letras, também não podemos aceitar isso. Para este desafio está permitido fazer pesquisas no Google, mas não no GPTzoca. Vou tentar não explicar esse exercício e nem dar respostas. Caso você tenha dificuldade para pesquisar eu posso ajudar e tentar fazer você entender.
